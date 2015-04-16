@@ -1,0 +1,11 @@
+<populations>
+  <postcode_district pcdistrict="OX12" latitude="51.638221" longitude="-1.352341" number="50"/>
+  <postcode_district pcdistrict="OX14" latitude="51.672146" longitude="-1.271293" number="50"/>
+  <postcode_district pcdistrict="LA2" latitude="54.059584" longitude="-2.818748" number="25"/>
+  <postcode_district pcdistrict="LA23" latitude="54.204382" longitude="-3.056036" number="75"/>
+  <postcode_district pcdistrict="S40" latitude="53.233920" longitude="-1.445844" number="150"/>
+  <postcode_district pcdistrict="S1" latitude="53.380081" longitude="-1.469984" number="150"/>
+
+  <!-- source of latitude/longitude data: www.postcodepal.com Copyright (c) 2012 Vulcan Logix. 
+  All rights reserved.-->
+</populations>

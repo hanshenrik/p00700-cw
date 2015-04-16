@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 3.3</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/task-3.2-tree-visualization.js"></script>
+    <style>
+      body { margin: auto; padding: 30px; text-align: center; }
+      rect { fill-opacity: 0.88; stroke-opacity: 0.5; stroke: black; }
+      text { font-size: 11px; fill: black; dominant-baseline: hanging; text-anchor: middle; }
+    </style>
+    <meta name="author" content="Hans Henrik Grønsleth" />
+  </head>
+  <body>
+    <svg width="300" height="300"> <!-- manually -->
+      <!-- total -->
+      <rect x="0" y="0" width="300" height="300" fill="white" />
+      
+      <g>
+        <rect x="0" y="0" width="30" height="300" fill="coral" />
+        <text x="15" y="150">OX12</text>
+        <rect x="30" y="0" width="30" height="300" fill="burlywood" />
+        <text x="45" y="150">OX14</text>
+      </g>
+      <g>
+        <animate
+          attributeType="CSS"
+          attributeName="opacity"
+          begin="mouseover"
+          from="1"
+          to="0"
+          dur="0.22s"
+          fill="freeze" />
+        <animate
+          attributeType="CSS"
+          attributeName="opacity"
+          begin="mouseout"
+          from="0"
+          to="1"
+          dur="0.22s"
+          fill="freeze" />
+        <g>
+          <rect x="0" y="0" width="60" height="300" fill="coral" />
+          <!-- <text x="30" y="30">OX</text> -->
+        </g>
+      </g>
+      
+      <g>
+        <rect x="60" y="0" width="60" height="75" fill="cornflowerblue" />
+        <text x="90" y="30">LA2</text>
+        <rect x="120" y="0" width="180" height="75" fill="cadetblue" />
+        <text x="200" y="30">LA23</text>
+      </g>
+      <g>
+        <animate
+          attributeType="CSS"
+          attributeName="opacity"
+          begin="mouseover"
+          from="1"
+          to="0"
+          dur="0.22s"
+          fill="freeze" />
+        <animate
+          attributeType="CSS"
+          attributeName="opacity"
+          begin="mouseout"
+          from="0"
+          to="1"
+          dur="0.22s"
+          fill="freeze" />
+        <rect x="60" y="0" width="240" height="75" fill="cornflowerblue" />
+        <!-- <text x="120" y="30">LA</text> -->
+      </g>
+
+      <g>
+        <rect x="60" y="75" width="120" height="225" fill="limegreen" />
+        <text x="120" y="180">S40</text>
+        <rect x="180" y="75" width="120" height="225" fill="mediumseagreen" />
+        <text x="240" y="180">S1</text>
+      </g>
+      <g>
+        <animate
+          attributeType="CSS"
+          attributeName="opacity"
+          begin="mouseover"
+          from="1"
+          to="0"
+          dur="0.22s"
+          fill="freeze" />
+        <animate
+          attributeType="CSS"
+          attributeName="opacity"
+          begin="mouseout"
+          from="0"
+          to="1"
+          dur="0.22s"
+          fill="freeze" />
+        <rect x="60" y="75" width="240" height="225" fill="limegreen" />
+        <!-- <text x="180" y="105">S</text> -->
+      </g>
+    </svg>
+  </body>
+</html>

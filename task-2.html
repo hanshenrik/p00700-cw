@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 2</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,200" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="css/task-2.css" />
+    <script src="js/task-2-course-and-module-selection.js"></script>
+    <script src="js/task-2-summary-histogram.js"></script>
+    <script src="js/task-2-button-events.js"></script>
+    <meta name="author" content="Hans Henrik Grønsleth" />
+  </head>
+  <body>
+    
+    <h1>course info</h1>
+    <section>
+      <div id="semesterContainer">
+        <label>for</label>
+        <select id="semesterSelect">
+          <option value="all">all semesters</option>
+          <option value="1">semester 1</option>
+          <option value="2">semester 2</option>
+          <option value="3">semester 3</option>
+        </select>
+      </div>
+
+      <div class="ui-widget">
+        <i id="infoIcon" class="fa fa-question-circle"></i><input id="autocomplete" placeholder="select course..." />
+      </div>
+      <p id="semesterError">Select a specific semester and try again.</p>
+
+      <p id="info">
+        <b>Select course</b> by clicking the input field and your course from the dropdown menu. <b>Select module</b> by clicking it. <b>Select multiple modules</b> by either a) Ctrl + Click, or b) holding down the left mouse key and marking the modules you want to select, like you would normally select text. <b>'C'</b> and a green <span class="compulsory">background</span> means the module is compulsory for the course, <b>'O'</b> means it's optional.
+      </p>
+
+      <!-- <div id="select-result">No modules selected</div> -->
+    </section>
+
+    <aside>
+      <button id="selectAllButton" title="Selects all modules known to the system and puts them in the table. Mainly for staff use.">select <em>all</em> modules</button>
+    </aside>
+
+    <section>
+      <ol id="selectable"></ol>
+    </section>
+
+    <aside>
+      <button id="selectAllFromCourseButton">select all modules from this course and semester</button>
+      <button id="clearSelectionButton">clear selection</button>
+      <button id="courseSummaryButton">course summary</button>
+      
+      <canvas id="courseSummaryHistogram" width="440" height="280">Canvas not supported. You should really consider upgrading your browser!</canvas>
+    </aside>
+
+    <table id="schedule-table">
+      <thead>
+        <tr>
+          <th>module</th>
+          <th>assignment</th>
+          <th>%</th>
+          <th>week 1</th>
+          <th>week 2</th>
+          <th>week 3</th>
+          <th>week 4</th>
+          <th>week 5</th>
+          <th>week 6</th>
+          <th>week 7</th>
+          <th>week 8</th>
+          <th>week 9</th>
+          <th>week 10</th>
+          <th>week 11</th>
+          <th>week 12</th>
+          <th>exam</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    
+
+    <footer>
+      <a class="blue" href="http://validator.w3.org/check/referer" title="W3C&reg; Markup Validation Service" target="_blank">Valid</a> HTML5
+    </footer>
+  </body>
+</html>

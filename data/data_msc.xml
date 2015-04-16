@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<obu>
+<course code='Comp'>
+<modulelist>
+<mod number='P00700' semester='2' status='O' />
+<mod number='P00101' semester='2' status='O' />
+<mod number='P00990' semester='1' status='C' />
+<mod number='P00100' semester='1' status='C' />
+<mod number='P00191' semester='2' status='C' />
+<mod number='P00601' semester='1' status='C' />
+<mod number='P00404' semester='2' status='C' />
+<mod number='P00998' semester='2' status='C' />
+<mod number='P00998' semester='3' status='C' />
+</modulelist>
+</course>
+
+<course code='CS'>
+<modulelist>
+
+<!--The Compulsory modules for PG Dip/MSc are -->
+<mod number='P00990'	semester='1' status='C' />
+<mod number='P00998'	semester='2' status='C' />
+<mod number='P00998'	semester='3' status='C' />
+
+<!--The Compulsory modules for MSc are -->
+<mod number='P00410'	semester='1' status='C' />
+
+<!--The Compulsory modules for PG Dip/MSc are -->
+	
+<mod number='P00404'	semester='2' status='C' />
+	
+	
+<!--The Optional modules are -->
+<mod number='P00400'	semester='2' status='O' />
+<mod number='P00488'	semester='2' status='O' />
+<mod number='P00603'	semester='2' status='O' />
+<mod number='P00701'	semester='2' status='O' />
+<mod number='P00409'	semester='2' status='O' />
+<mod number='P00401'	semester='1' status='O' />
+<mod number='P00552'	semester='1' status='O' />
+<mod number='P00556'	semester='2' status='O' />
+
+</modulelist>
+</course>
+
+<course code='SE'>
+<modulelist>
+<!--The Compulsory modules for PG Dip/MSc are -->
+<mod number='P00990'	semester='1' status='C' />
+<mod number='P00401'	semester='1' status='C' />
+<mod number='P00404'	semester='2' status='C' />
+
+
+<!--The Compulsory modules for MSc are -->
+<mod number='P00410'	semester='1' status='C' />
+<mod number='P00998'	semester='2' status='C' />
+<mod number='P00998'	semester='3' status='C' />
+
+<!--The Alternative Compulsory modules for MSc are 1 from  -->
+<mod number='P00400'	semester='2' status='A1' />
+<mod number='P00488'	semester='2' status='A1' />
+	
+<!--The Optional modules are -->
+<mod number='P00603'	semester='2' status='O' />
+<mod number='P00701'	semester='2' status='O' />
+<mod number='P00409'	semester='2' status='O' />
+</modulelist>
+</course>
+
+<course code='CV'>
+<modulelist>
+<!--
+The Compulsory modules for PG Dip/MSc are
+P00990 	Research and Scholarship Methods
+P00405 	Mathematical Methods for Computer Vision
+P00407 	Principles of Computer Vision
+
+The Compulsory modules for MSc are
+P00404	Software Production
+P00406 	Machine Learning
+P00408 	Advanced Computer Vision
+P00998 	Dissertation
+-->
+
+<!--The Compulsory modules for PG Dip/MSc are -->
+<mod number='P00990'	semester='1' status='C' />
+<mod number='P00405'	semester='1' status='C' />
+<mod number='P00407'	semester='1' status='C' />
+
+
+<!--The Compulsory modules for MSc are -->
+<mod number='P00404'	semester='2' status='C' />
+<mod number='P00998'	semester='2' status='C' />
+<mod number='P00998'	semester='3' status='C' />
+<mod number='P00406'	semester='2' status='C' />
+<mod number='P00408'	semester='2' status='C' />
+</modulelist>
+</course>
+
+<course code="EB">
+<modulelist>
+<!--
+P00011	Research and Study Methods	10	Compulsory	1 & 2	
+P00801	eBusiness Information Systems	20	Compulsory	2	P00803 & P00804
+P00803	Web Applications Development	20	Compulsory	1	
+P00804	The Business Web	20	Compulsory	1	
+P00805	Building a Web-Based Business 	20	Compulsory	2	P00803, P00804 & P00809
+P00806	Business eFutures	20	Compulsory	2	P00803 & P00804
+P00809	eMarketing Principles and Strategies	20	Compulsory	1	
+P00998	Dissertation	50	Compulsory	2 consecutive semesters	P00011
+-->
+<mod number='P00011' semester='1' status='C' />
+<mod number='P00011' semester='2' status='C' />
+<mod number='P00801' semester='2' status='C' />
+<mod number='P00803' semester='1' status='C' />
+<mod number='P00804' semester='1' status='C' />
+<mod number='P00805' semester='2' status='C' />
+<mod number='P00806' semester='2' status='C' />
+<mod number='P00809' semester='1' status='C' />
+<mod number='P00998' semester='2' status='C' />
+<mod number='P00998' semester='3' status='C' />
+</modulelist>
+</course>
+
+<modules>
+  <!-- computing -->
+    <module code="P00100">
+      <coursework end="8" start="5">
+         <title>P00100</title>
+         <assignment>Coursework 1</assignment>
+         <semester>1</semester>
+         <marks>0.2</marks>
+      </coursework>
+      <coursework end="12" start="8">
+         <title>P00100</title>
+         <assignment>Coursework 2</assignment>
+         <semester>1</semester>
+         <marks>0.2</marks>
+      </coursework>
+      <coursework end="10" start="1">
+         <title>P00100</title>
+         <assignment>Weekly exercises</assignment>
+         <semester>1</semester>
+         <marks>0.2</marks>
+      </coursework>
+      <coursework end="13" start="13">
+         <title>P00100</title>
+         <assignment>Exam</assignment>
+         <semester>1</semester>
+         <marks>0.4</marks>
+      </coursework>
+   </module>
+      <module code="P00191">
+      <coursework end="2" start="1">
+         <title>P00191</title>
+         <assignment>Assignment 1 (Group presentation)</assignment>
+         <semester>2</semester>
+         <marks>0.025</marks>
+      </coursework>
+      <coursework end="11" start="1">
+         <title>P00191</title>
+         <assignment>Assignment 2</assignment>
+         <semester>2</semester>
+         <marks>0.475</marks>
+      </coursework>
+      <coursework end="13" start="13">
+         <title>P00191</title>
+         <assignment>Exam</assignment>
+         <semester>2</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+   <module code="P00601">
+      <coursework end="6" start="2">
+         <title>P00601</title>
+         <assignment>Risk assessment</assignment>
+         <semester>1</semester>
+         <marks>0.025</marks>
+      </coursework>
+      <coursework end="6" start="2">
+         <title>P00601</title>
+         <assignment>Database Design</assignment>
+         <semester>1</semester>
+         <marks>formative</marks>
+      </coursework>
+      <coursework end="8" start="2">
+         <title>P00601</title>
+         <assignment>XML Design</assignment>
+         <semester>1</semester>
+         <marks>formative</marks>
+      </coursework>
+      <coursework end="10" start="2">
+         <title>P00601</title>
+         <assignment>Final report</assignment>
+         <semester>1</semester>
+         <marks>0.475</marks>
+      </coursework>
+      <coursework end="13" start="13">
+         <title>P00601</title>
+         <assignment>Exam</assignment>
+         <semester>1</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+   <module code="P00700">
+      <coursework end="6" start="2">
+         <title>P00700</title>
+         <assignment>S/W licenses</assignment>
+         <semester>2</semester>
+         <marks>0.05</marks>
+      </coursework>
+      <coursework end="8" start="2">
+         <title>P00700</title>
+         <assignment>Initial Design</assignment>
+         <semester>2</semester>
+         <marks>formative</marks>
+      </coursework>
+      <coursework end="10" start="2">
+         <title>P00700</title>
+         <assignment>Final report</assignment>
+         <semester>2</semester>
+         <marks>0.45</marks>
+      </coursework>
+      <coursework end="13" start="13">
+         <title>P00700</title>
+         <assignment>Exam</assignment>
+         <semester>2</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+      <module code="P00101">
+      <coursework end="7" start="2">
+         <title>P00101</title>
+         <assignment>Assignment 1</assignment>
+         <semester>2</semester>
+         <marks>0.25</marks>
+      </coursework>
+      <coursework end="7" start="2">
+         <title>P00101</title>
+         <assignment>Assignment 2</assignment>
+         <semester>2</semester>
+         <marks>0.25</marks>
+      </coursework>
+      <coursework end="13" start="13">
+         <title>P00101</title>
+         <assignment>Exam</assignment>
+         <semester>2</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+ 
+      <!-- RSM and DIS - Tjeerd -->
+   <module code="P00990">
+      <coursework end="5" start="1">
+			      <title>P00990</title>
+			      <assignment>Assignment 1 (individual)</assignment>
+			      <semester>1</semester>
+			      <marks>0.5</marks>
+		    </coursework>
+      <coursework end="11" start="6">
+			      <title>P00990</title>
+			      <assignment>Assignment 2 (group)</assignment>
+			      <semester>1</semester>
+			      <marks>0.5</marks>
+		    </coursework>
+   </module>
+   <module code="P00998">
+      <coursework end="3" start="1">
+			      <title>P00998</title>
+			      <assignment>Proposal</assignment>
+			      <semester>2</semester>
+			      <marks>0.05</marks>
+		    </coursework>
+      <coursework end="12" start="1">
+			      <title>P00998</title>
+			      <assignment>Interim report</assignment>
+			      <semester>2</semester>
+			      <marks>0.05</marks>
+		    </coursework>
+    <coursework start="11" end="11">
+			<title>P00998</title>
+			<assignment>Presentation</assignment>
+			<semester>3</semester>
+			<marks>0.1</marks>
+		</coursework>
+		<coursework start="1" end="12">
+			<title>P00998</title>
+			<assignment>Dissertation</assignment>
+			<semester>3</semester>
+			<marks>0.7</marks>
+		</coursework>
+		<coursework start="11" end="12">
+			<title>P00998</title>
+			<assignment>Short paper</assignment>
+			<semester>3</semester>
+			<marks>0.1</marks>
+		</coursework>
+   </module>
+   <!-- comms modules - Peter -->
+   <module code="P00200">
+      <coursework end="5" start="2">
+         <title>P00200</title>
+         <assignment>Assignment 1 (individual)</assignment>
+         <semester>1 </semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="8" start="5">
+         <title>P00200</title>
+         <assignment>Programming Assignment 2 (group)</assignment>
+         <semester>1</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="8">
+         <title>P00200</title>
+         <assignment>Assignment 3</assignment>
+         <semester>1</semester>
+         <marks>0.20</marks>
+      </coursework>
+   </module>
+   <module code="P00300">
+      <coursework end="5" start="2">
+         <title>P00300</title>
+         <assignment> Assignment 1 (group)</assignment>
+         <semester>1 </semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="8" start="5">
+         <title>P00300</title>
+         <assignment> Assignment 2 (group)</assignment>
+         <semester>1</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="8">
+         <title>P00300</title>
+         <assignment> Assignment 3 (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.20</marks>
+      </coursework>
+   </module>
+   <module code="P00330">
+      <coursework end="5" start="2">
+         <title>P00330</title>
+         <assignment>Programming Assignment 1 (group)</assignment>
+         <semester>1 </semester>
+         <marks>0.20</marks>
+      </coursework>
+      <coursework end="8" start="5">
+         <title>P00330</title>
+         <assignment>Assignment 2 (group)</assignment>
+         <semester>1</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="11" start="8">
+         <title>P00330</title>
+         <assignment> Assignment 3 (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.20</marks>
+      </coursework>
+   </module>
+   <module code="P00552">
+      <coursework end="5" start="2">
+         <title>P00552</title>
+         <assignment>Assignment 1 (group)</assignment>
+         <semester>1</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="9" start="7">
+         <title>P00552</title>
+         <assignment>Assignment 2 (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="9">
+         <title>P00552</title>
+         <assignment> Assignment 3 (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.05</marks>
+      </coursework>
+      <coursework end="6" start="6">
+         <title>P00552</title>
+         <assignment>Class test</assignment>
+         <semester>1</semester>
+         <marks>0.15</marks>
+      </coursework>
+   </module>
+   <module code="P00358">
+      <coursework end="4" start="2">
+         <title>P00358</title>
+         <assignment> Assignment 1 (group)</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="7" start="4">
+         <title>P00358</title>
+         <assignment> Assignment 2 (group)</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="7">
+         <title>P00358</title>
+         <assignment> Assignment 3 (group)</assignment>
+         <semester>2</semester>
+         <marks>0.30</marks>
+      </coursework>
+      <coursework end="12" start="11">
+         <title>P00358</title>
+         <assignment> Assignment 4 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.05</marks>
+      </coursework>
+   </module>
+   <module code="P00WSN">
+      <coursework end="5" start="2">
+         <title>P00WSN</title>
+         <assignment> Assignment 1 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.20</marks>
+      </coursework>
+      <coursework end="8" start="5">
+         <title> P00WSN </title>
+         <assignment> Assignment 2 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="10" start="8">
+         <title> P00WSN </title>
+         <assignment> Assignment 3</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="11" start="10">
+         <title> P00WSN </title>
+         <assignment> Assignment 4</assignment>
+         <semester>2</semester>
+         <marks>0.05</marks>
+      </coursework>
+   </module>
+   <module code="P00AMC">
+      <coursework end="5" start="2">
+         <title>P00AMC</title>
+         <assignment> Assignment 1 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="7" start="5">
+         <title>P00AMC</title>
+         <assignment> Assignment 2 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="9" start="7">
+         <title>P00AMC</title>
+         <assignment> Assignment 3</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="9">
+         <title>P00AMC</title>
+         <assignment> Assignment 4</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+	  <coursework end="13" start="13">
+         <title>P00AMC</title>
+         <assignment>Exam</assignment>
+         <semester>1</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+   <module code="P00556">
+      <coursework end="5" start="2">
+         <title>P00556</title>
+         <assignment>Assignment 1 (group)</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="8" start="5">
+         <title>P00556</title>
+         <assignment>Assignment 2 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="11" start="8">
+         <title>P00556</title>
+         <assignment> Assignment 3 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="6" start="6">
+         <title>P00556</title>
+         <assignment>Class test</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+   </module>
+   <module code="P00336">
+      <coursework end="4" start="2">
+         <title>P00336</title>
+         <assignment>Assignment 1 (group)</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="7" start="5">
+         <title>P00336</title>
+         <assignment>Assignment 2 (group)</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="10" start="7">
+         <title>P00336</title>
+         <assignment> Assignment 3 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="11" start="8">
+         <title>P00336</title>
+         <assignment> Assignment 4 (group)</assignment>
+         <semester>2</semester>
+         <marks>0.20</marks>
+      </coursework>
+   </module>
+   <!-- CS/SE modules - Faye -->
+   <module code="P00410">
+      <coursework end="11" start="1">
+         <title>P00410</title>
+         <assignment>Assignment 1 (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+   <module code="P00404">
+      <coursework end="6" start="1">
+         <title>P00404</title>
+         <assignment>Assignment 1 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.3</marks>
+      </coursework>
+      <coursework end="11" start="2">
+         <title>P00404</title>
+         <assignment>Assignment 2  part 1(groupwork)</assignment>
+         <semester>2</semester>
+         <marks>0.3</marks>
+      </coursework>
+      <coursework end="11" start="2">
+         <title>P00404</title>
+         <assignment>Assignment 2  part 2(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.1</marks>
+      </coursework>
+      <coursework end="12" start="12">
+         <title>P00404</title>
+         <assignment>Assignment 3 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.3</marks>
+      </coursework>
+   </module>
+   <module code="P00401">
+      <coursework end="6" start="1">
+         <title>P00401</title>
+         <assignment>Assignment 1(groupwork)</assignment>
+         <semester>1</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="8" start="3">
+         <title>P00401</title>
+         <assignment>Assignment 2(individual)</assignment>
+         <semester>1</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="5">
+         <title>P00401</title>
+         <assignment>Assignment 3 (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.2</marks>
+      </coursework>
+   </module>
+      <module code="P00409">
+      <coursework start="2" end="8">
+         <title>P00409</title>
+         <assignment>Assignment 1</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework start="2" end="11">
+         <title>P00409</title>
+         <assignment>Assignment 2</assignment>
+         <semester>2</semester>
+         <marks>0.35</marks>
+      </coursework>
+      <coursework end="13" start="13">
+         <title>P00409</title>
+         <assignment>Exam</assignment>
+         <semester>2</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+   <module code="P00400">
+      <coursework end="6" start="1">
+         <title>P00400</title>
+         <assignment>Assignment 1 part 1 (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.05</marks>
+      </coursework>
+      <coursework end="6" start="1">
+         <title>P00400</title>
+         <assignment>Assignment 1 part 2(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="4">
+         <title>P00400</title>
+         <assignment>Assignment 2 part 1(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.1</marks>
+      </coursework>
+      <coursework end="11" start="4">
+         <title>P00400</title>
+         <assignment>Assignment 2 part 2(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.3</marks>
+      </coursework>
+      <coursework end="11" start="4">
+         <title>P00400</title>
+         <assignment>Assignment 2 part 3(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.05</marks>
+      </coursework>
+      <coursework end="11" start="4">
+         <title>P00400</title>
+         <assignment>Assignment 2 part 4(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.1</marks>
+      </coursework>
+      <coursework end="11" start="4">
+         <title>P00400</title>
+         <assignment>Assignment 2 part 5(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.25</marks>
+      </coursework>
+   </module>
+   <module code="P00488">
+      <coursework end="11" start="1">
+         <title>P00488</title>
+         <assignment>Assignment 1(groupwork)</assignment>
+         <semester>2</semester>
+         <marks>0.4</marks>
+      </coursework>
+      <coursework end="11" start="4">
+         <title>P00488</title>
+         <assignment>Assignment 2(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.2</marks>
+      </coursework>
+      <coursework end="12" start="12">
+         <title>P00488</title>
+         <assignment>Assignment 3(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.4</marks>
+      </coursework>
+   </module>
+   <module code="P00603">
+      <coursework end="11" start="1">
+         <title>P00603</title>
+         <assignment>Assignment 1(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.5</marks>
+      </coursework>
+   </module>
+   <module code="P00701">
+      <coursework end="4" start="1">
+         <title>P00701</title>
+         <assignment>Assignment 1(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.1</marks>
+      </coursework>
+      <coursework end="11" start="1">
+         <title>P00701</title>
+         <assignment>Assignment 2(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.4</marks>
+      </coursework>
+   </module>
+   <module code="P000WPA">
+      <coursework end="11" start="1">
+         <title>P000WPA</title>
+         <assignment>Assignment 2(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.15</marks>
+      </coursework>
+      <coursework end="11" start="4">
+         <title>P000WPA</title>
+         <assignment>Assignment 2(individual)</assignment>
+         <semester>2</semester>
+         <marks>0.35</marks>
+      </coursework>
+   </module>
+   <!-- Computer Vision -->
+   <module code="P00405">
+      <coursework end="4" start="2">
+         <title>P00405</title>
+         <assignment>Matlab Assignment 1 - Foundations of Linear Algebra (individual)</assignment>
+         <semester>1 (dbl)</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="7" start="5">
+         <title>P00405</title>
+         <assignment>Matlab Assignment 2 - Optimisation methods (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.10</marks>
+      </coursework>
+      <coursework end="10" start="8">
+         <title>P00405</title>
+         <assignment>Matlab Assignment 3 - Probability theory (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.10</marks>
+      </coursework>
+   </module>
+   <module code="P00406">
+      <coursework end="10" start="5">
+         <title>P00406</title>
+         <assignment>Assignment 1 - Group Presentation on Machine Learning approach</assignment>
+         <semester>2 (dbl)</semester>
+         <marks>0.15</marks>
+
+         <assignment>Assignment 1 - Individual report</assignment>
+         <semester>2 (dbl)</semester>
+         <marks>0.05</marks>
+
+      </coursework>
+      <coursework end="11" start="6">
+         <title>P00406</title>
+         <assignment>Assignment 2 - Machine Learning algorithm (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.30</marks>
+      </coursework>
+   </module>
+   <module code="P00407">
+      <coursework end="11" start="5">
+         <title>P00407</title>
+         <assignment>Assignment 1 - Computer Vision project (individual)</assignment>
+         <semester>1</semester>
+         <marks>0.50</marks>
+      </coursework>
+   </module>
+   <module code="P00408">
+      <coursework end="12" start="6">
+         <title>P00408</title>
+         <assignment>Assignment 1 - Project Report (individual)</assignment>
+         <semester>2 (dbl)</semester>
+         <marks>0.50</marks>
+      </coursework>
+      <coursework end="12" start="6">
+         <title>P00408</title>
+         <assignment>Assignment 2 - Final demonstration and presentation (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.25</marks>
+      </coursework>
+      <coursework end="6" start="3">
+         <title>P00408</title>
+         <assignment>Assignment 3 - Reading group presentation (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.25</marks>
+      </coursework>
+      <coursework end="9" start="3">
+         <title>P00408</title>
+         <assignment>Assignment 3 - Reading group presentation (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.25</marks>
+      </coursework>
+      <coursework end="12" start="3">
+         <title>P00408</title>
+         <assignment>Assignment 3 - Reading group presentation (individual)</assignment>
+         <semester>2</semester>
+         <marks>0.25</marks>
+      </coursework>
+   </module>
+   
+   <!-- eBusiness modules -->
+<module code="P00801">
+<coursework start="4" end="10">
+      <title>P00801</title>
+      <assignment>Assignment 1</assignment>
+      <semester>2</semester>
+      <marks>0.3</marks>
+   </coursework>
+   <coursework end="13" start="13">
+         <title>P00801</title>
+         <assignment>Exam</assignment>
+         <semester>2</semester>
+         <marks>0.7</marks>
+      </coursework>
+   </module>
+<module code="P00803">
+<coursework start="1" end="4">
+      <title>P00803</title>
+      <assignment>Coursework 1</assignment>
+      <semester>1</semester>
+      <marks>0.35</marks>
+   </coursework>
+    <coursework start="1" end="11" >
+         <title>P00803</title>
+         <assignment>Coursework 2a</assignment>
+         <semester>1</semester>
+         <marks>formative</marks>
+      </coursework>
+   <coursework start="1" end="11" >
+         <title>P00803</title>
+         <assignment>Coursework 2b</assignment>
+         <semester>1</semester>
+         <marks>0.65</marks>
+      </coursework>
+   </module>
+   
+   
+<module code="P00804">
+<coursework start="2" end="11">
+      <title>P00804</title>
+      <assignment>Coursework 1</assignment>
+      <semester>1</semester>
+      <marks>1.0</marks>
+   </coursework>
+   </module> 
+   
+   
+<module code="P00805">
+<coursework start="1" end="11">
+      <title>P00805</title>
+      <assignment>Coursework 1</assignment>
+      <semester>2</semester>
+      <marks>1.0</marks>
+   </coursework>
+   </module> 
+
+<module code="P00806">
+<coursework start="1" end="11">
+      <title>P00806</title>
+      <assignment>Written practitioner paper</assignment>
+      <semester>2</semester>
+      <marks>0.6</marks>
+   </coursework>      
+<coursework start="1" end="11">
+      <title>P00806</title>
+      <assignment>Verbal presentation</assignment>
+      <semester>2</semester>
+      <marks>0.4</marks>
+   </coursework>
+   </module>
+
+ <module code="P00809">
+<coursework start="1" end="11">
+      <title>P00809</title>
+      <assignment>Coursework 1</assignment>
+      <semester>1</semester>
+      <marks>0.35</marks>
+   </coursework>      
+<coursework start="1" end="11">
+      <title>P00809</title>
+      <assignment>Coursework 2</assignment>
+      <semester>1</semester>
+      <marks>0.65</marks>
+   </coursework>
+   </module> 
+   <!-- P00011 and P00998 added by David -->
+       <module code="P00011">
+      <coursework end="9" start="2">
+			      <title>P00011</title>
+			      <assignment>Literature review</assignment>
+			      <semester>1</semester>
+			      <marks>0.5</marks>
+		    </coursework>
+      <coursework end="9" start="2">
+			      <title>P00011</title>
+			      <assignment>Presentation</assignment>
+			      <semester>2</semester>
+			      <marks>0.5</marks>
+		    </coursework>
+   </module>
+ 
+</modules>		
+</obu>
