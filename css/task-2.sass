@@ -12,6 +12,7 @@ $obu-green-dark: #6F7805
 $obu-pink: #D10373
 $obu-pink-light: #F959B0
 
+// fonts
 $header-font: 'Titillium Web'
 
 body
@@ -21,8 +22,6 @@ body
   background: $white
   margin: auto // center the whole shabang
   max-width: 80%
-
-// task 2
 
 section
   float: left
@@ -75,6 +74,7 @@ input#autocomplete
     padding: 0.4em
     width: 40%
     float: right
+    cursor: pointer
 
 table
   width: 100%
@@ -95,12 +95,17 @@ table
 
 #infoIcon
   cursor: pointer
+  font-size: 20px
+  vertical-align: middle
 
-p#info
+ul#info
   display: none
-  float: right
+  text-align: left
   margin: 0
   padding: 0
+  list-style-type: square
+  li
+    line-height: 160%
 
 canvas#courseSummaryHistogram
   display: none

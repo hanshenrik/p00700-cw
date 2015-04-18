@@ -11,7 +11,7 @@ $(document).ready(function() {
     var barXstart = 30
     var barX = barXstart
     var yMax = Math.max.apply(null, deadlinesCount)
-    var barYscale = (yMax > 9) ? 15 : 30  // use less space per deadline if there are loads of
+    var barYscale = (yMax > 9) ? 15 : 30  // use less y space per deadline if there are loads of
                                           // deadlines in one week to avoid drawing outside canvas
     var barYstart = (yMax + 1) * barYscale
     var course = $( '#autocomplete' ).val().split(sep)[0]
@@ -26,20 +26,21 @@ $(document).ready(function() {
     context.textBaseline = 'top'
     context.fillText(course + ' semester ' + semester, canvasSizeX / 2, 0)
     context.font = '10px sans-serif'
+    
     for (i in deadlinesCount) {
       // draw bar
       context.fillStyle = 'rgb(158, 171, 5)'
       context.fillRect(barX, barYstart - barYscale*deadlinesCount[i], barXsize, barYscale*deadlinesCount[i])
       
-      // add labels
+      // add x-axis labels
       context.fillStyle = 'rgb(0, 0, 0)'
       context.save()
-        context.translate(barX, barYstart + 8)
+        context.translate(barX + 12, barYstart + 8)
         context.rotate(0.7)
         if (i == 12) { // write 'exam' instead of 13
           context.fillText('exam', 0, 0)
         } else {
-          context.fillText(parseInt(i)+1, 0, 0)
+          context.fillText(parseInt(i) + 1, 0, 0)
         }
       context.restore()
       barX += 2*barXsize
@@ -59,7 +60,7 @@ $(document).ready(function() {
       context.lineTo(barXstart - 5, barYstart - barYscale*i)
       context.stroke()
 
-      // add labels
+      // add y-axis labels
       context.fillStyle = 'rgb(0, 0, 0)'
       context.save()
         context.textBaseline = 'middle'

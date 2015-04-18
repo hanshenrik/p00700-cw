@@ -3,6 +3,11 @@ $(document).ready(function() {
 
   $( '#infoIcon' ).click(function() {
     $( '#info' ).slideToggle()
+    $( this ).fadeOut('fast', function() {
+      $( this ).toggleClass( 'fa-times-circle' )
+      $( this ).toggleClass( 'fa-question-circle' )
+      $( this ).fadeIn('fast')
+    })
   })
 
   $( '#semesterSelect' ).change(function() {
