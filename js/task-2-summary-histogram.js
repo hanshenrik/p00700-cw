@@ -71,35 +71,37 @@ $(document).ready(function() {
   }
 
   $( '#courseSummaryButton' ).click(function() {
-    // initialize/clear deadlinesCount to avoid cumulative values
-    for (i = 0; i < 13; i++) deadlinesCount[i] = 0
-    $.ajax({
-      type: "GET",
-      url: "data/data_msc.xml",
-      dataType: "xml",
-      success: function(xml) {
-        var semesterFilter = $( '#semesterSelect' ).val()
-        if (semesterFilter == 'all') {
-          $( '#semesterError' ).slideDown()
-          $( '#semesterSelect' ).effect( 'highlight', 1000 )
-          return
-        }
-        $( '#semesterError' ).slideUp()
-        $( '#selectable li' ).each(function() {
-          var modCode = $(this).text().split(' ')[0]
-          var sem = $(this).text().split(' ')[2]
-          if (sem == semesterFilter) {
-            $( xml ).find('module[code="' + modCode + '"]').find('coursework').each(function() {
-              if (sem == $(this).find('semester').text()) {
-                var end = parseInt($(this).attr('end'))
-                deadlinesCount[end-1] += 1
-              }
-            })
+    $( '#canvas-wrapper' ).slideUp(function() {
+      // initialize/clear deadlinesCount to avoid cumulative values
+      for (i = 0; i < 13; i++) deadlinesCount[i] = 0
+      $.ajax({
+        type: "GET",
+        url: "data/data_msc.xml",
+        dataType: "xml",
+        success: function(xml) {
+          var semesterFilter = $( '#semesterSelect' ).val()
+          if (semesterFilter == 'all') {
+            $( '#semesterError' ).slideDown()
+            $( '#semesterSelect' ).effect( 'highlight', 1000 )
+            return
           }
-        })
-        drawCanvas()
-        $( '#courseSummaryHistogram' ).show()
-      }
+          $( '#semesterError' ).slideUp()
+          $( '#selectable li' ).each(function() {
+            var modCode = $(this).text().split(' ')[0]
+            var sem = $(this).text().split(' ')[2]
+            if (sem == semesterFilter) {
+              $( xml ).find('module[code="' + modCode + '"]').find('coursework').each(function() {
+                if (sem == $(this).find('semester').text()) {
+                  var end = parseInt($(this).attr('end'))
+                  deadlinesCount[end-1] += 1
+                }
+              })
+            }
+          })
+          drawCanvas()
+          $( '#canvas-wrapper' ).slideDown()
+        }
+      })
     })
   })
 })
