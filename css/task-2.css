@@ -97,7 +97,7 @@ ul#info {
   ul#info li {
     line-height: 160%; }
 
-canvas#courseSummaryHistogram {
+#canvas-wrapper {
   padding: 1em;
   display: none; }
 
