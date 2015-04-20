@@ -17,13 +17,20 @@ aside {
   float: right;
   text-align: left; }
 
-h1, h2, h3, h4, h5, h6, hr {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web";
   font-weight: 200;
   line-height: 160%;
   margin: 0;
   padding: 0.4em;
   text-align: center; }
+
+hr {
+  display: block;
+  width: 88%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #AAAAAA; }
 
 input, button, select {
   margin: 0.6em;
@@ -91,6 +98,7 @@ ul#info {
     line-height: 160%; }
 
 canvas#courseSummaryHistogram {
+  padding: 1em;
   display: none; }
 
 p#semesterError {
