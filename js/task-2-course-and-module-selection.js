@@ -110,6 +110,7 @@ $(document).ready(function() {
           })
         }
       })
+      
       $( '#selectAllButton' ).click(function() {
         // clear table
         $( '#schedule-table tbody tr' ).remove()
