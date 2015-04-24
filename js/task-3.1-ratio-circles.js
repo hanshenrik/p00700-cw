@@ -1,7 +1,6 @@
 $(document).ready(function() {
   var sep = ' // '
   var districts = {}
-  var districtCircle
   var color
 
   function initialize() {
@@ -30,8 +29,7 @@ $(document).ready(function() {
       }
       
       // add circle to map
-      districtsCircle = new google.maps.Circle(populationOptions)
-
+      new google.maps.Circle(populationOptions)
     }
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('legend'))
   }
