@@ -110,18 +110,10 @@ $(document).ready(function() {
           })
         }
       })
-    }
-  })
-  
-  $( '#selectAllButton' ).click(function() {
-    // clear table
-    $( '#schedule-table tbody tr' ).remove()
+      $( '#selectAllButton' ).click(function() {
+        // clear table
+        $( '#schedule-table tbody tr' ).remove()
     
-    $.ajax({
-      type: "GET",
-      url: "data/data_msc.xml",
-      dataType: "xml",
-      success: function(xml) {
         // add coursework from /all/ module tags to #schedule-table
         $(xml).find('module').each(function() {
           $(this).find('coursework').each(function() {
@@ -129,7 +121,7 @@ $(document).ready(function() {
             $( '#schedule-table tbody' ).append(tr)
           })
         })
-      }
-    })
+      })
+    }
   })
 })
